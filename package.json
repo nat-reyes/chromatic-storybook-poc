@@ -1,0 +1,29 @@
+{
+  "name": "chromatic-storybook-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.6",
+    "@storybook/addon-essentials": "^8.6.11",
+    "@storybook/addon-interactions": "^8.6.11",
+    "@storybook/addon-onboarding": "^8.6.11",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/blocks": "^8.6.11",
+    "@storybook/react": "^8.6.11",
+    "@storybook/react-webpack5": "^8.6.11",
+    "@storybook/test": "^8.6.11",
+    "chromatic": "^11.27.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.6.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --project-token=chpt_02e66343c55d7ff"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
