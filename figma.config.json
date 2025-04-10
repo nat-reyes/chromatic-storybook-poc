@@ -1,0 +1,33 @@
+{
+  "name": "chromatic-storybook-poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "figmaDesignSystems": [
+    {
+      "name": "Chromatic Storybook POC",
+      "id": "YOUR_FIGMA_FILE_ID",
+      "version": "1.0.0"
+    }
+  ],
+  "components": {
+    "Alert": {
+      "figmaNode": "Alert",
+      "source": "./stories/Alert.jsx",
+      "props": {
+        "variant": {
+          "type": "string",
+          "figmaProp": "variant",
+          "default": "default"
+        },
+        "title": {
+          "type": "string",
+          "figmaProp": "title"
+        },
+        "children": {
+          "type": "string",
+          "figmaProp": "content"
+        }
+      }
+    }
+  }
+} 
