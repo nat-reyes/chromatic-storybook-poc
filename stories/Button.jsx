@@ -20,7 +20,7 @@ export const Button = ({
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
-      {label} + New 2
+      {label} + New 3
     </button>
   );
 };
